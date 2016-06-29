@@ -27,6 +27,10 @@ Options:
 
 ### Example:
 
+Linked list is a data structure consisting of a group of memory nodes which together represent a sequence. Each node is composed of value and a pointer to the next node in the sequence. This structure allows for efficient insertion or removal of elements from any position in the sequence. Linked list are based on dynamically allocated nodes and this make it the simplest use case to test binwatch. The follwoing figure illustrates an output of binviz given a program implementing linked list structure.
+
+![alt tag](https://github.com/maroueneboubakri/binviz/blob/master/linked_list.png)
+
 
 ## Authors
 - Marouene Boubakri <[marouene.boubakri@eurecom.fr](mailto:marouene.boubakri@eurecom.fr)>
