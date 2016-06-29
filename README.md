@@ -5,4 +5,28 @@ The tool has capability to assist reverse engineers in analyzing and comprehendi
 Binviz is based on binary instrumentation. 
 Given a binary executable, binwatch executes the binary in top of a dynamic binary instrumentation framework, monitors the execution, collect changes on memory objects, and finally produce a graph illustrating observed memory objects and their evolution during the execution.
 
+## Usage
 
+> $ ./pin –t binviz_path [options] -- binary
+
+Options:
+
+>  – opset: Supply observation points
+
+>  – dump: Dump process memory at supplied observations points
+
+>  – mapping: List all mapped memory regions
+
+>  – pointer: Resolve pointers
+
+>  – static:Include operations on static memory
+
+>  – trace: Trace the executed instructions
+
+>  – help: Print help message
+
+### Example:
+
+
+## Authors
+- Marouene Boubakri <[marouene.boubakri@eurecom.fr](mailto:marouene.boubakri@eurecom.fr)>
